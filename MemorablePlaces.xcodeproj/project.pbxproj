@@ -14,6 +14,8 @@
 		7602F372221D40B500B6D451 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7602F370221D40B500B6D451 /* LaunchScreen.storyboard */; };
 		7602F37D221D40B500B6D451 /* MemorablePlacesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7602F37C221D40B500B6D451 /* MemorablePlacesTests.swift */; };
 		7602F388221D40B500B6D451 /* MemorablePlacesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7602F387221D40B500B6D451 /* MemorablePlacesUITests.swift */; };
+		7602F396221D430200B6D451 /* PlacesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7602F395221D430200B6D451 /* PlacesViewController.swift */; };
+		7602F399221D515E00B6D451 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7602F398221D515E00B6D451 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		7602F383221D40B500B6D451 /* MemorablePlacesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MemorablePlacesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7602F387221D40B500B6D451 /* MemorablePlacesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorablePlacesUITests.swift; sourceTree = "<group>"; };
 		7602F389221D40B500B6D451 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7602F395221D430200B6D451 /* PlacesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesViewController.swift; sourceTree = "<group>"; };
+		7602F398221D515E00B6D451 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7602F399221D515E00B6D451 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +86,7 @@
 				7602F37B221D40B500B6D451 /* MemorablePlacesTests */,
 				7602F386221D40B500B6D451 /* MemorablePlacesUITests */,
 				7602F365221D40B500B6D451 /* Products */,
+				7602F397221D515D00B6D451 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +105,7 @@
 			children = (
 				7602F367221D40B500B6D451 /* AppDelegate.swift */,
 				7602F369221D40B500B6D451 /* ViewController.swift */,
+				7602F395221D430200B6D451 /* PlacesViewController.swift */,
 				7602F36B221D40B500B6D451 /* Main.storyboard */,
 				7602F36E221D40B500B6D451 /* Assets.xcassets */,
 				7602F370221D40B500B6D451 /* LaunchScreen.storyboard */,
@@ -123,6 +130,14 @@
 				7602F389221D40B500B6D451 /* Info.plist */,
 			);
 			path = MemorablePlacesUITests;
+			sourceTree = "<group>";
+		};
+		7602F397221D515D00B6D451 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7602F398221D515E00B6D451 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7602F396221D430200B6D451 /* PlacesViewController.swift in Sources */,
 				7602F36A221D40B500B6D451 /* ViewController.swift in Sources */,
 				7602F368221D40B500B6D451 /* AppDelegate.swift in Sources */,
 			);
